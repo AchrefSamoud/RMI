@@ -30,25 +30,7 @@ double solde=1125.10;
         System.out.println("vous avez verser "+montant+"dt votre solde total est "+solde+"dt");
     }
 
-    /** @Override
-    public void palindrome(String ch) throws RemoteException {
-        String pal="";
-        System.out.println(ch.length());
-       for(int i=ch.length()-1;i<0;i--){
-           pal=pal+ch.charAt(i);
-       }
-        System.out.println(pal);
-        if (pal.equals(ch)) {
-            System.out.println(ch+" est palindrome");
-        }else
-            System.out.println(ch+" n est pas palindrome");
-    }
--
-    @Override
-    public String MAJ(String a) throws RemoteException {
-        return a.toUpperCase();
-    }
-**/
+
     public static void main(String[] args) throws RemoteException, MalformedURLException {
         Server server = new Server();
 
